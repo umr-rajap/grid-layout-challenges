@@ -1,0 +1,55 @@
+ .container{
+   display: grid;
+   border:
+  5px solid black;
+   padding:5px;
+ }
+
+ #navbar{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 2fr;
+   border: 5px solid black;
+   background-color: grey;
+   text-align: center;
+ }
+
+ section{
+   display: grid;
+   border: 5px solid black;
+   font-weight: 50px;
+   grid-template-columns: 3.5fr 2fr;
+   grid-template-rows: 2fr;
+   background-color: grey;
+ }
+
+ #classmates1{
+   border: 5px solid black;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 2fr;
+   background-color: grey;
+ }
+ #classmates2{
+   border: 5px solid black;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 2fr;
+   background-color: grey;
+ }
+ #classmates3{
+   border: 5px solid black;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 2fr;
+   background-color: grey;
+ }
+
+ footer{
+   display: grid;
+   font-weight: 50;
+   border: 5px solid black;
+   grid-template-columns: 2fr 3.5fr;
+   grid-template-rows: 2fr;
+   background-color: grey;
+ }

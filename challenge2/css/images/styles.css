@@ -1,0 +1,26 @@
+article{
+  background-color: red;
+  font-size: 1em;
+}
+
+nav{
+  background-color: blue;
+  font-size: 1em;
+}
+
+.lok{
+  background-color: green;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 480px){
+navbar{
+  float: left;
+  width: 30%;
+  margin: 0 0 0 5%;
+  padding: 25px 1%;
+  margin-bottom: 0;
+  background-color: black;
+  color: cyan;
+}
+}
